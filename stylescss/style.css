@@ -161,6 +161,7 @@
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;
+  letter-spacing: 5px;
 }
 
 .card {
@@ -316,6 +317,21 @@
 
 #formulario {
   margin: 50px;
+  letter-spacing: 1px;
+}
+
+label {
+  width: 20%;
+}
+
+.input {
+  width: 44%;
+}
+
+.boton1 {
+  letter-spacing: 1px;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .container {
