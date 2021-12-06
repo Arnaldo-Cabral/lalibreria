@@ -187,10 +187,6 @@ $altoCard: 15rem;
     font-weight: bold;
     border: $colorH2;
     transition: 3ms;
-
-
-
-
 }
 
 .btn-primary:hover {
@@ -328,14 +324,38 @@ label {
 .boton1 {
     letter-spacing: 1px;
     margin-left: 10%;
-    margin-right: 5%;
-   
+    margin-right: 5%;  
     
+}
+
+.boton1,
+.boton2{
+    margin-top: 10px;
+    background-color: $colorFondo;
+    color: #ff2800;
+    font-weight: bold;
+    border: $colorH2;
+    transition: 3ms;
+}
+
+.boton1:hover {
+    background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+    color: $colorFondo;
+}
+.boton2:hover {
+    background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+    color: $colorFondo;
 }
 
 .container {
     margin-top: 50px;
 }
+
+.formlogin{
+    width: 50%;
+}
+
+
 
 
 

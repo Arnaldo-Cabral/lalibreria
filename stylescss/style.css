@@ -334,8 +334,32 @@ label {
   margin-right: 5%;
 }
 
+.boton1,
+.boton2 {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  color: #ff2800;
+  font-weight: bold;
+  border: #ff8c00;
+  transition: 3ms;
+}
+
+.boton1:hover {
+  background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+  color: #f2f2f2;
+}
+
+.boton2:hover {
+  background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+  color: #f2f2f2;
+}
+
 .container {
   margin-top: 50px;
+}
+
+.formlogin {
+  width: 50%;
 }
 
 @media (max-width: 650px) {
