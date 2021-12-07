@@ -441,4 +441,34 @@ label {
   #mapa {
     margin-left: -70px;
   }
+
+  .footer1__p--modificaciones {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .card {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #formulario {
+    display: block;
+  }
+
+  .espacionombre,
+.espaciogifcards {
+    width: 30%;
+    margin-bottom: 5px;
+    display: block ruby;
+  }
+
+  .modicuadro {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
