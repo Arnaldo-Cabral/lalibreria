@@ -362,7 +362,7 @@ label {
   width: 50%;
 }
 
-@media (max-width: 650px) {
+@media only screen and (max-width: 610px) {
   .header1__h1--modificaciones {
     font-size: 80px;
     margin-left: -35px;
@@ -409,18 +409,36 @@ label {
     margin-left: 5%;
   }
 
-  .tabla--modificaciones,
-.tabla__th--modificaciones,
-.tabla__tr--modificaciones,
-.tabla__th--modificaciones,
-.tabla__td--modificaciones {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: medium;
-  }
-
   .card {
     margin-left: 55px;
+  }
+
+  .asideocultar {
+    display: none;
+  }
+
+  .input {
+    width: 75%;
+  }
+
+  #formulario {
+    margin-left: 15%;
+  }
+
+  .boton1 {
+    margin-left: 15%;
+  }
+
+  .formlogin {
+    margin-left: 27%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #logotipo {
+    display: none;
+  }
+
+  #mapa {
+    margin-left: -70px;
   }
 }/*# sourceMappingURL=style.css.map */

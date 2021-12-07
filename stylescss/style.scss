@@ -324,12 +324,12 @@ label {
 .boton1 {
     letter-spacing: 1px;
     margin-left: 10%;
-    margin-right: 5%;  
-    
+    margin-right: 5%;
+
 }
 
 .boton1,
-.boton2{
+.boton2 {
     margin-top: 10px;
     background-color: $colorFondo;
     color: #ff2800;
@@ -342,6 +342,7 @@ label {
     background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
     color: $colorFondo;
 }
+
 .boton2:hover {
     background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
     color: $colorFondo;
@@ -351,7 +352,7 @@ label {
     margin-top: 50px;
 }
 
-.formlogin{
+.formlogin {
     width: 50%;
 }
 
@@ -360,7 +361,7 @@ label {
 
 
 
-@media (max-width: 650px) {
+@media only screen and (max-width: 610px) {
 
     .header1__h1--modificaciones {
         font-size: 80px;
@@ -410,20 +411,40 @@ label {
         margin-left: 5%;
     }
 
-    .tabla--modificaciones,
-    .tabla__th--modificaciones,
-    .tabla__tr--modificaciones,
-    .tabla__th--modificaciones,
-    .tabla__td--modificaciones {
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        font-size: medium;
-    }
 
     .card {
         margin-left: 55px;
     }
 
+    .asideocultar {
+        display: none;
+    }
 
+    .input {
+        width: 75%;
+    }
+
+    #formulario {
+        margin-left: 15%;
+    }
+
+    .boton1 {
+        margin-left: 15%;
+    }
+
+    .formlogin {
+        margin-left: 27%;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    #logotipo {
+        display: none;
+    }
+
+    #mapa{
+        margin-left: -70px;
+    }
 }
