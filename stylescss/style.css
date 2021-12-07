@@ -161,6 +161,7 @@
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;
+  letter-spacing: 5px;
 }
 
 .card {
@@ -314,34 +315,54 @@
   width: 100%;
 }
 
-.tabla--modificaciones {
-  border: 5px solid black;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 5%;
-  box-shadow: 0px 10px 10px -6px black;
-}
-
-.tabla__th--modificaciones {
-  background-color: #ccc;
-}
-
-.tabla__tr--modificaciones,
-.tabla__th--modificaciones,
-.tabla__td--modificaciones {
-  border: 1px solid black;
-  padding: 1rem;
-}
-
 #formulario {
   margin: 50px;
+  letter-spacing: 1px;
+}
+
+label {
+  width: 20%;
+}
+
+.input {
+  width: 44%;
+}
+
+.boton1 {
+  letter-spacing: 1px;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.boton1,
+.boton2 {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  color: #ff2800;
+  font-weight: bold;
+  border: #ff8c00;
+  transition: 3ms;
+}
+
+.boton1:hover {
+  background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+  color: #f2f2f2;
+}
+
+.boton2:hover {
+  background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
+  color: #f2f2f2;
 }
 
 .container {
   margin-top: 50px;
 }
 
-@media (max-width: 650px) {
+.formlogin {
+  width: 50%;
+}
+
+@media only screen and (max-width: 610px) {
   .header1__h1--modificaciones {
     font-size: 80px;
     margin-left: -35px;
@@ -388,18 +409,91 @@
     margin-left: 5%;
   }
 
-  .tabla--modificaciones,
-.tabla__th--modificaciones,
-.tabla__tr--modificaciones,
-.tabla__th--modificaciones,
-.tabla__td--modificaciones {
-    margin: 0px;
-    padding: 0px;
+  .card {
+    margin-left: 55px;
+  }
+
+  .asideocultar {
+    display: none;
+  }
+
+  .input {
+    width: 75%;
+  }
+
+  #formulario {
+    margin-left: 15%;
+  }
+
+  .boton1 {
+    margin-left: 20%;
+  }
+
+  .formlogin {
+    margin-left: 27%;
+  }
+
+  .espacionombre,
+.espaciogifcards {
+    width: 30%;
+    margin-bottom: 5px;
+    display: block ruby;
+  }
+
+  .modicuadro {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  #mapa {
+    margin-left: -50px;
+  }
+
+  .input {
+    width: 90%;
+  }
+
+  .footer1__ul--propiedades {
     text-align: center;
-    font-size: medium;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #logotipo {
+    display: none;
+  }
+
+  #mapa {
+    margin-left: -70px;
+  }
+
+  .footer1__p--modificaciones {
+    display: block;
+    margin-top: 20px;
   }
 
   .card {
-    margin-left: 55px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #formulario {
+    display: block;
+  }
+
+  .espacionombre,
+.espaciogifcards {
+    width: 30%;
+    margin-bottom: 5px;
+    display: block ruby;
+  }
+
+  .modicuadro {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
