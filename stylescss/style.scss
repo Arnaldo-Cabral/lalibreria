@@ -429,13 +429,37 @@ label {
     }
 
     .boton1 {
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     .formlogin {
         margin-left: 27%;
     }
 
+    .espacionombre,
+    .espaciogifcards {
+        width: 30%;
+        margin-bottom: 5px;
+        display: block ruby;
+    }
+
+    .modicuadro {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    #mapa {
+        margin-left: -50px;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .footer1__ul--propiedades {
+        text-align: center;
+        margin-top: 15px;
+    }
 
 }
 
@@ -458,18 +482,18 @@ label {
         margin-top: 20px;
     }
 
-    #formulario{
+    #formulario {
         display: block;
     }
 
     .espacionombre,
-    .espaciogifcards{
+    .espaciogifcards {
         width: 30%;
         margin-bottom: 5px;
         display: block ruby;
     }
 
-    .modicuadro{
+    .modicuadro {
         width: 90%;
         margin-bottom: 10px;
     }
@@ -478,6 +502,6 @@ label {
         width: 90%;
     }
 
-    
+
 
 }
