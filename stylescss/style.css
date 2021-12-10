@@ -383,6 +383,58 @@ label {
   letter-spacing: 1px;
 }
 
+.redesSociales {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+}
+
+.redesSociales__ul--propiedades {
+  list-style: none;
+  margin-left: 34rem;
+}
+
+.redesSociales__li--modificaciones {
+  display: inline;
+  margin: 20px;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.fab {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: black;
+  transition: 300ms;
+}
+
+.fab:hover {
+  transform: translateY(-3px);
+  font-size: 30px;
+  color: #f2f2f2;
+  transition: 300ms;
+}
+
+.fa-facebook:hover {
+  background-color: #1877f2;
+  transition: 300ms;
+}
+
+.fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.fa-twitter:hover {
+  background: #1d9bf0;
+}
+
+.fa-whatsapp:hover {
+  background: #00e676;
+}
+
 @media only screen and (max-width: 610px) {
   .header1__h1--modificaciones {
     font-size: 80px;
