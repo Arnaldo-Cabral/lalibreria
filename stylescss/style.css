@@ -234,9 +234,10 @@
 
 .section1__h3--modificaciones {
   color: grey;
-  font-size: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 50px;
   margin-left: 5%;
 }
 
@@ -316,8 +317,12 @@
 }
 
 #formulario {
-  margin: 50px;
+  display: block;
   letter-spacing: 1px;
+}
+
+.mover--form {
+  margin-left: 35%;
 }
 
 label {
@@ -325,7 +330,7 @@ label {
 }
 
 .input {
-  width: 44%;
+  width: 42%;
 }
 
 .boton1 {
@@ -366,7 +371,9 @@ label {
 
 .formlogin--recuperar {
   font-size: 15px;
-  display: ruby-text;
+  display: block;
+  margin-left: 24rem;
+  margin-top: -3rem;
 }
 
 .btn1 {
@@ -407,7 +414,7 @@ label {
   line-height: 55px;
   font-size: 30px;
   border-radius: 10px;
-  color: black;
+  color: #808080;
   transition: 300ms;
 }
 

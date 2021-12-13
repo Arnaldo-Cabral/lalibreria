@@ -63,11 +63,11 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 section1--propiedades">
+            <div class="col-sm-12 section1--propiedades">
                 <h2 class="section1__h2--modificaciones">Gift Cards</h2>
                 <h3 class="section1__h3--modificaciones">Regala un libro</h3>
                 <div id="formulario">
-                    <form action="">
+                    <form action="/action_page.php" class="mover--form">
                         <label for="nombre_apellido" class="espacionombre">Nombre y Apellido</label>
                         <input type="text" class="modicuadro" name="nombre_apellido">
                         <br>
@@ -88,32 +88,121 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 aside1--propiedades asideocultar">
-                <h2 class="section1__h2--modificaciones">Eventos</h2>
-                <ul id="listaEventos" class="aside1__ul--modificaciones">
-                    <!-- camel case -->
-                    <li class="aside1__li--modificaciones"><a class="aside1__a--modificaciones"
-                            href="https://www.el-libro.org.ar/fundacion/tecnopolis-libros-en-el-parque/" target="_blank"
-                            rel="noopener noreferrer">Tecnópolis 2021</a>
-                    </li>
-                    <li class="aside1__li--modificaciones"><a class="aside1__a--modificaciones"
-                            href="https://www.el-libro.org.ar/fundacion/feria-internacional/se-anuncio-oficialmente-la-46-a-feria-internacional-del-libro-de-buenos-aires/"
-                            target="_blank" rel="noopener noreferrer">Feria del libro 2022</a>
-                    </li>
-                    <li class="aside1__li--modificaciones"><a class="aside1__a--modificaciones"
-                            href="https://www.escobar.gob.ar/comenzo-la-3o-edicion-de-la-feria-del-libro-el-arte-y-la-cultura-organizada-por-la-municipalidad-de-escobar/"
-                            target="_blank" rel="noopener noreferrer">Feria del libro en Escobar</a>
-                    </li>
-                    <li class="aside1__li--modificaciones"><a class="aside1__a--modificaciones"
-                            href="https://www.malvinasargentinas.gob.ar/web/page/feria-del-libro-segunda-edicion/"
-                            target="_blank" rel="noopener noreferrer">Feria del libro en Malvinas Argentinas</a></a>
-                    </li>
-                </ul>
-                <h2 class="aside1__h2--modificaciones">Donde estamos</h2>
-                <div id="mapa">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1186739755103!2d-58.392562808336926!3d-34.601160502657244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabfa32044e7%3A0x9d77f41b8f016b30!2sAv.%20C%C3%B3rdoba%2C%20C1055%20CABA!5e0!3m2!1ses!2sar!4v1634520279243!5m2!1ses!2sar"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="col-sm-12  section1--propiedades">
+                <h3 class="section1__h3--modificaciones">Sugerencias de regalos</h3>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/club_de_los_psicopatas.jpg"
+                        alt="El club de los psicopatas">
+                    <div class="card-body">
+                        <h5 class="card-title">El club</h5>
+                        <p class="card-text">$ 1.350.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/el_italiano.jpg" alt="El italiano">
+                    <div class="card-body">
+                        <h5 class="card-title">El italiano</h5>
+                        <p class="card-text">$ 1.800.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/el_libro_mas_lindo_del_mundo.jpg"
+                        alt="El libro mas lindo del mundo">
+                    <div class="card-body">
+                        <h5 class="card-title">El libro</h5>
+                        <p class="card-text">$ 2.300.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/betular.jpg" alt="Betular">
+                    <div class="card-body">
+                        <h5 class="card-title">Betular</h5>
+                        <p class="card-text">$ 1.700.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/historias_de_la_cocina_argentina.jpg"
+                        alt="Historia de la concina argentina">
+                    <div class="card-body">
+                        <h5 class="card-title">Historia argentina</h5>
+                        <p class="card-text">$ 1.900.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/horoscopo2022.jpg" alt="Ludovica horoscopo 2022">
+                    <div class="card-body">
+                        <h5 class="card-title">Horoscopo 2022</h5>
+                        <p class="card-text">$ 1.899.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/la_tía_cosima.jpg" alt="La tia cosima">
+                    <div class="card-body">
+                        <h5 class="card-title">La tía cósima</h5>
+                        <p class="card-text">$ 850.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/las_señoritas.jpg" alt="Las señoritas">
+                    <div class="card-body">
+                        <h5 class="card-title">Las señoritas</h5>
+                        <p class="card-text">$ 999.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/los_hijos_del_rey.jpg" alt="Los hijos del rey">
+                    <div class="card-body">
+                        <h5 class="card-title">Los hijos </h5>
+                        <p class="card-text">$ 1.500.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/regreso_a_la_villa_de_las_ telas.jpg"
+                        alt="Regreso a la villa de las telas">
+                    <div class="card-body">
+                        <h5 class="card-title">Regreso a la villa </h5>
+                        <p class="card-text">$ 1.999.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/billy_summers.jpg" alt="Billy summers">
+                    <div class="card-body">
+                        <h5 class="card-title">Billy Summers</h5>
+                        <p class="card-text">$ 1.150.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../novedades/los_sietes_maridos_de_evelyn.jpg"
+                        alt="Los sietes maridos de evelyn">
+                    <div class="card-body">
+                        <h5 class="card-title">Los sietes</h5>
+                        <p class="card-text">$ 2.500.-</p>
+                        <a href="../html/login.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
                 </div>
 
             </div>
