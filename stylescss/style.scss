@@ -35,6 +35,7 @@ $altoCard: 15rem;
     animation-duration: 5s;
 }
 
+
 @keyframes color {
     0% {
         color: #ff2800;
@@ -195,30 +196,10 @@ $altoCard: 15rem;
 
 
 
-
-.aside1--propiedades {
-    background-color: rgb(224, 220, 233);
-    background-image: url("../imagen/main_libraria.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-
-.aside1__h2--modificaciones {
-
-    color: $colorH2;
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2rem;
-}
-
-
 .section1__p--modifiaciones {
     display: flex;
     text-align: justify;
+    margin-bottom: 20px;
     color: grey;
     font-size: 1.5rem;
 }
@@ -227,9 +208,35 @@ $altoCard: 15rem;
     color: grey;
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     margin-left: 5%;
+}
+
+.section1__ul--modificaciones {
+    list-style: none;
+    margin-left: 28.5%;
+}
+
+.section1__li--modificaciones {
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.section1__a--modificaciones {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: #808080;
+    transition: 300ms;
+}
+
+.section1__a--modificaciones:hover {
+    color: $colorH2;
+    transition: 300ms;
+    margin-left: 10px;
+    text-transform: uppercase;
 }
 
 
@@ -237,39 +244,10 @@ $altoCard: 15rem;
     text-decoration: none;
 }
 
-.aside1__ul--modificaciones {
-    list-style: none;
-    margin-left: 2rem;
-    color: rgb(88, 86, 86);
-    list-style: none;
-}
-
-.aside1__li--modificaciones {
-    padding: 10px 5px 10px 30px;
-}
-
-.aside1__a--modificaciones {
-    color: black;
-    font-size: 28px;
-    font-weight: bold;
-    background-color: white;
-    text-decoration: none;
-    list-style: none;
-}
-
-.aside1__h2--modificaciones {
-
-    color: $colorH2;
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2rem;
-}
 
 .iframe {
     display: flex;
-    margin-left: 0px;
+    margin-left: 50%;
     padding: 5px;
 }
 
@@ -279,6 +257,7 @@ $altoCard: 15rem;
 
 .footer1__ul--propiedades {
     text-align: center;
+    margin-top: 10px;
 }
 
 .footer1__p--modificaciones {
@@ -313,6 +292,7 @@ $altoCard: 15rem;
 #formulario {
     display: block;
     letter-spacing: 1px;
+    margin-top: -20px;
 }
 
 .mover--form {
@@ -467,10 +447,6 @@ label {
         text-align: center;
     }
 
-    .aside1__h2--modificaciones {
-        text-align: center;
-    }
-
     iframe {
         margin-left: 20%;
 
@@ -535,8 +511,8 @@ label {
         margin-bottom: 10px;
     }
 
-    #mapa {
-        margin-left: -50px;
+    iframe {
+        margin-left: 50%;
     }
 
     .input {
