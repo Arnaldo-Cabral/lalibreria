@@ -426,7 +426,80 @@ label {
 
 
 
-@media only screen and (max-width: 610px) {
+@media only screen and(max-width: 480px) {
+    #logotipo {
+        display: none;
+    }
+
+    #mapa {
+        margin-left: -70px;
+    }
+
+    .footer1__p--modificaciones {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .card {
+        margin-left: 20px !important;
+        margin-top: 20px;
+    }
+
+    .section1__ul--modificaciones {
+        margin-left: 10px;
+    }
+
+    .section1__a--modificaciones {
+        font-size: 30px;
+    }
+
+    iframe {
+        margin-left: 0px !important;
+        width: 90% !important;
+    }
+
+    #formulario {
+        display: block;
+    }
+
+    .mover--form {
+        margin-left: -5%;
+        margin-top: 50px;
+    }
+
+    .espacionombre,
+    .espaciogifcards {
+        width: 30%;
+        margin-bottom: 5px;
+        display: inline;
+        margin-bottom: 10px !important;
+    }
+
+    .formlogin--recuperar {
+        margin-left: 7rem;
+    }
+
+
+    .redesSociales__ul--propiedades {
+        margin-left: 15PX;
+    }
+
+
+
+    .modicuadro {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
 
     .header1__h1--modificaciones {
         font-size: 80px;
@@ -523,48 +596,5 @@ label {
         text-align: center;
         margin-top: 15px;
     }
-
-}
-
-@media only screen and (max-width: 480px) {
-    #logotipo {
-        display: none;
-    }
-
-    #mapa {
-        margin-left: -70px;
-    }
-
-    .footer1__p--modificaciones {
-        display: block;
-        margin-top: 20px;
-    }
-
-    .card {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
-    #formulario {
-        display: block;
-    }
-
-    .espacionombre,
-    .espaciogifcards {
-        width: 30%;
-        margin-bottom: 5px;
-        display: block ruby;
-    }
-
-    .modicuadro {
-        width: 90%;
-        margin-bottom: 10px;
-    }
-
-    .input {
-        width: 90%;
-    }
-
-
 
 }
