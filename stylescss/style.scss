@@ -481,7 +481,7 @@ label {
 
 
     .redesSociales__ul--propiedades {
-        margin-left: 15PX;
+        margin-left: 5% !important;
     }
 
 
@@ -520,14 +520,11 @@ label {
         text-align: center;
     }
 
-    iframe {
-        margin-left: 20%;
-
-    }
 
     .section1--propiedades {
         height: auto;
         padding-bottom: 10%;
+        margin-bottom: -10%;
     }
 
     .section1__h3--modificaciones {
@@ -536,34 +533,40 @@ label {
         margin-left: 9%;
     }
 
+    .section1__ul--modificaciones {
+        margin-left: 10%;
+    }
+
+    iframe {
+        margin-left: 0px !important;
+        width: 90% !important;
+    }
+
+    .mover--form {
+        margin-left: -6%;
+    }
+
     .proxi {
         width: 100%;
         height: 100%;
     }
 
-    form {
-        margin-left: 5%;
-    }
-
-
     .card {
         margin-left: 55px;
     }
 
-    .asideocultar {
-        display: none;
-    }
-
-    .input {
-        width: 75%;
-    }
-
+    
     #formulario {
         margin-left: 15%;
     }
 
     .boton1 {
         margin-left: 20%;
+        margin-bottom: -5%;
+    }
+
+    .boton2{
+        margin-left: 10%;
     }
 
     .formlogin {
@@ -577,19 +580,32 @@ label {
         display: block ruby;
     }
 
-
-
     .modicuadro {
         width: 90%;
         margin-bottom: 10px;
     }
 
-    iframe {
-        margin-left: 50%;
-    }
-
     .input {
         width: 90%;
+    }
+
+    .form-check-label {
+        width: 50%;
+    }
+
+    .formlogin--recuperar {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+    .btn2{
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+
+    .redesSociales__ul--propiedades {
+        margin-left: 15%;
     }
 
     .footer1__ul--propiedades {
