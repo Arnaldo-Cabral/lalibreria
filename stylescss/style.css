@@ -424,251 +424,12 @@ label {
   background: #00e676;
 }
 
-@media only screen and (max-width: 480px) {
-  #logotipo {
-    display: none;
-  }
-
-  #mapa {
-    margin-left: -70px;
-  }
-
-  .footer1__p--modificaciones {
-    display: block;
-    margin-top: 20px;
-  }
-
-  .card {
-    margin-left: 20px !important;
-    margin-top: 20px;
-  }
-
-  .section1__ul--modificaciones {
-    margin-left: 10px;
-  }
-
-  .section1__a--modificaciones {
-    font-size: 30px;
-  }
-
-  iframe {
-    margin-left: 0px !important;
-    width: 90% !important;
-  }
-
-  #formulario {
-    display: block;
-  }
-
-  .mover--form {
-    margin-left: -5%;
-    margin-top: 50px;
-  }
-
-  .espacionombre,
-.espaciogifcards {
-    width: 30%;
-    margin-bottom: 5px;
-    display: inline;
-    margin-bottom: 10px !important;
-  }
-
-  .formlogin--recuperar {
-    margin-left: 7rem;
-  }
-
-  .redesSociales__ul--propiedades {
-    margin-left: 5% !important;
-  }
-
-  .modicuadro {
-    width: 90%;
-    margin-bottom: 10px;
-  }
-
-  .input {
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .header1__h1--modificaciones {
-    font-size: 80px;
-    margin-left: -35px;
-  }
-
-  .header1__logo--animacion {
-    height: 60%;
-    margin-left: -50px;
-  }
-
-  .nav1--propiedades {
-    margin: 0px auto !important;
-  }
-
-  .section1__h2--modificaciones {
-    text-align: center;
-  }
-
-  .section1--propiedades {
-    height: auto;
-    padding-bottom: 10%;
-    margin-bottom: -10%;
-  }
-
-  .section1__h3--modificaciones {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 9%;
-  }
-
-  .section1__ul--modificaciones {
-    margin-left: 10%;
-  }
-
-  iframe {
-    margin-left: 0px !important;
-    width: 90% !important;
-  }
-
-  .mover--form {
-    margin-left: -6%;
-  }
-
-  .proxi {
-    width: 100%;
-    height: 100%;
-  }
-
-  .card {
-    margin-left: 55px;
-  }
-
-  #formulario {
-    margin-left: 0%;
-    margin-right: 48px;
-  }
-
-  .espaciogifcards {
-    display: block;
-  }
-
-  .cantLibros {
-    margin-left: 0PX !important;
-  }
-
-  .boton1 {
-    margin-left: 20%;
-    margin-bottom: -5%;
-  }
-
-  .boton2 {
-    margin-left: 10%;
-    margin-top: 0% !important;
-  }
-
-  .formlogin {
-    margin-left: 10%;
-  }
-
-  .espacionombre,
-.espaciogifcards {
-    width: 30%;
-    margin-bottom: 5px;
-    display: block ruby;
-  }
-
-  .modicuadro {
-    width: 90%;
-    margin-bottom: 10px;
-  }
-
-  .input {
-    width: 90%;
-  }
-
-  .form-check-label {
-    width: 50%;
-  }
-
-  .formlogin--recuperar {
-    margin-left: 0rem;
-    margin-top: 1rem;
-  }
-
-  .btn2 {
-    margin-top: -5%;
-    margin-left: 10%;
-  }
-
-  .redesSociales__ul--propiedades {
-    margin-left: 15%;
-  }
-
-  .footer1__ul--propiedades {
-    text-align: center;
-    margin-top: 15px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .header1__h1--modificaciones {
-    font-size: 80px;
-    margin-left: -35px;
-  }
-
-  .section1__ul--modificaciones {
-    margin-left: 7% !important;
-  }
-
-  .card {
-    margin-left: 40px !important;
-  }
-
-  .mover--form {
-    margin-left: 25%;
-  }
-
-  .espacionombre {
-    display: inline;
-  }
-
-  .cantLibros {
-    margin-left: -71px !important;
-  }
-
-  .input {
-    width: 62% !important;
-  }
-
-  .boton2 {
-    margin-left: 10%;
-  }
-
-  label {
-    width: 40%;
-  }
-
-  .formlogin {
-    width: 80%;
-  }
-
-  .formlogin--recuperar {
-    margin-left: 0rem !important;
-    margin-top: 1rem;
-  }
-
-  .btn1 {
-    margin-left: 1%;
-  }
-
-  .btn2 {
-    margin-left: 10%;
-  }
-
-  .redesSociales__ul--propiedades {
-    margin-left: 20% !important;
-  }
-}
 @media only screen and (max-width: 1024px) {
+  .header1__h1--modificaciones {
+    font-size: 130px;
+    margin-left: -35px;
+  }
+
   .card {
     margin-left: 100px;
   }
@@ -703,5 +464,269 @@ label {
 
   .redesSociales__ul--propiedades {
     margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header1__h1--modificaciones {
+    font-size: 80px;
+    margin-left: -35px;
+  }
+
+  .section1__ul--modificaciones {
+    margin-left: 7%;
+  }
+
+  .card {
+    margin-left: 40px;
+  }
+
+  .mover--form {
+    margin-left: 25%;
+  }
+
+  .espacionombre {
+    display: inline;
+  }
+
+  .cantLibros {
+    margin-left: -71px;
+  }
+
+  .input {
+    width: 62%;
+  }
+
+  .boton2 {
+    margin-left: 5%;
+  }
+
+  label {
+    width: 40%;
+  }
+
+  .formlogin {
+    width: 80%;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .btn1 {
+    margin-left: 1%;
+  }
+
+  .btn1 {
+    margin-left: 25%;
+  }
+
+  .btn2 {
+    margin-left: 10%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header1__h1--modificaciones {
+    font-size: 80px;
+    margin-left: -35px;
+  }
+
+  .header1__logo--animacion {
+    height: 60%;
+    margin-left: -50px;
+  }
+
+  .nav1--propiedades {
+    margin: 0px auto;
+  }
+
+  .section1__h2--modificaciones {
+    text-align: center;
+  }
+
+  .section1--propiedades {
+    height: auto;
+    padding-bottom: 10%;
+    margin-bottom: -10%;
+  }
+
+  .section1__h3--modificaciones {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+  }
+
+  .section1__ul--modificaciones {
+    margin-left: 10%;
+  }
+
+  iframe {
+    margin-left: 0px;
+    width: 90%;
+  }
+
+  .mover--form {
+    margin-left: 10%;
+  }
+
+  .proxi {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin-left: 55px;
+  }
+
+  #formulario {
+    margin-left: 10%;
+    margin-right: 48px;
+  }
+
+  .espaciogifcards {
+    display: block;
+  }
+
+  .cantLibros {
+    margin-left: 0PX;
+  }
+
+  .boton1 {
+    margin-left: 16%;
+    margin-bottom: -5%;
+  }
+
+  .boton2 {
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+
+  .formlogin {
+    margin-left: 10%;
+  }
+
+  .espacionombre,
+.espaciogifcards {
+    width: 30%;
+    margin-bottom: 5px;
+    display: block ruby;
+  }
+
+  .modicuadro {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 90%;
+  }
+
+  .form-check-label {
+    width: 50%;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .btn1 {
+    margin-left: 15%;
+  }
+
+  .btn2 {
+    margin-left: 10%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 15%;
+  }
+
+  .footer1__ul--propiedades {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #logotipo {
+    display: none;
+  }
+
+  #mapa {
+    margin-left: -70px;
+  }
+
+  .footer1__p--modificaciones {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .card {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .section1__ul--modificaciones {
+    margin-left: 10px;
+  }
+
+  .section1__a--modificaciones {
+    font-size: 30px;
+  }
+
+  iframe {
+    margin-left: 0px;
+    width: 90%;
+  }
+
+  #formulario {
+    display: block;
+  }
+
+  .mover--form {
+    margin-left: 10%;
+    margin-right: -10%;
+    margin-top: 50px;
+  }
+
+  .boton2 {
+    margin-left: 5%;
+  }
+
+  .espacionombre,
+.espaciogifcards {
+    width: 30%;
+    margin-bottom: 5px;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0%;
+  }
+
+  .btn1 {
+    margin-left: 7%;
+  }
+
+  .btn2 {
+    margin-top: 0%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 5%;
+  }
+
+  .modicuadro {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */
