@@ -207,75 +207,56 @@
   background-image: linear-gradient(#f3efb2, #e54819, #e54819, #f3efb2);
 }
 
-.aside1--propiedades {
-  background-color: #e0dce9;
-  background-image: url("../imagen/main_libraria.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-}
-
-.aside1__h2--modificaciones {
-  color: #ff8c00;
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 2rem;
-}
-
 .section1__p--modifiaciones {
   display: flex;
   text-align: justify;
+  margin-bottom: 20px;
   color: grey;
   font-size: 1.5rem;
 }
 
 .section1__h3--modificaciones {
   color: grey;
-  font-size: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 25px;
   margin-left: 5%;
+}
+
+.section1__ul--modificaciones {
+  list-style: none;
+  margin-left: 28.5%;
+}
+
+.section1__li--modificaciones {
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.section1__a--modificaciones {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+  color: #808080;
+  transition: 300ms;
+}
+
+.section1__a--modificaciones:hover {
+  color: #ff8c00;
+  transition: 300ms;
+  margin-left: 10px;
+  text-transform: uppercase;
 }
 
 #listaEventos {
   text-decoration: none;
 }
 
-.aside1__ul--modificaciones {
-  list-style: none;
-  margin-left: 2rem;
-  color: #585656;
-  list-style: none;
-}
-
-.aside1__li--modificaciones {
-  padding: 10px 5px 10px 30px;
-}
-
-.aside1__a--modificaciones {
-  color: black;
-  font-size: 28px;
-  font-weight: bold;
-  background-color: white;
-  text-decoration: none;
-  list-style: none;
-}
-
-.aside1__h2--modificaciones {
-  color: #ff8c00;
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 2rem;
-}
-
 .iframe {
   display: flex;
-  margin-left: 0px;
+  margin-left: 50%;
   padding: 5px;
 }
 
@@ -285,6 +266,7 @@
 
 .footer1__ul--propiedades {
   text-align: center;
+  margin-top: 10px;
 }
 
 .footer1__p--modificaciones {
@@ -316,8 +298,13 @@
 }
 
 #formulario {
-  margin: 50px;
+  display: block;
   letter-spacing: 1px;
+  margin-top: -20px;
+}
+
+.mover--form {
+  margin-left: 35%;
 }
 
 label {
@@ -325,7 +312,7 @@ label {
 }
 
 .input {
-  width: 44%;
+  width: 42%;
 }
 
 .boton1 {
@@ -360,9 +347,189 @@ label {
 
 .formlogin {
   width: 50%;
+  display: block;
+  margin: auto;
 }
 
-@media only screen and (max-width: 610px) {
+.formlogin--recuperar {
+  font-size: 15px;
+  display: block;
+  margin-left: 24rem;
+  margin-top: -3rem;
+}
+
+.btn1 {
+  margin-left: 25%;
+}
+
+.btn2 {
+  margin-left: 20px;
+}
+
+.btn1,
+.btn2 {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.redesSociales {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+}
+
+.redesSociales__ul--propiedades {
+  list-style: none;
+  margin-left: 34rem;
+}
+
+.redesSociales__li--modificaciones {
+  display: inline;
+  margin: 20px;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
+.fab {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 30px;
+  border-radius: 10px;
+  color: #808080;
+  transition: 300ms;
+}
+
+.fab:hover {
+  transform: translateY(-3px);
+  font-size: 30px;
+  color: #f2f2f2;
+  transition: 300ms;
+}
+
+.fa-facebook:hover {
+  background-color: #1877f2;
+  transition: 300ms;
+}
+
+.fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.fa-twitter:hover {
+  background: #1d9bf0;
+}
+
+.fa-whatsapp:hover {
+  background: #00e676;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header1__h1--modificaciones {
+    font-size: 130px;
+    margin-left: -35px;
+  }
+
+  .card {
+    margin-left: 100px;
+  }
+
+  .section1__ul--modificaciones {
+    margin-left: 18%;
+  }
+
+  .espacionombre {
+    display: inline;
+  }
+
+  .modicuadro {
+    margin-bottom: 10px;
+  }
+
+  .cantLibros {
+    margin-left: 21PX;
+  }
+
+  .input {
+    width: 50%;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 65%;
+  }
+
+  .btn1 {
+    margin-left: 20%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header1__h1--modificaciones {
+    font-size: 80px;
+    margin-left: -35px;
+  }
+
+  .section1__ul--modificaciones {
+    margin-left: 7%;
+  }
+
+  .card {
+    margin-left: 40px;
+  }
+
+  .mover--form {
+    margin-left: 25%;
+  }
+
+  .espacionombre {
+    display: inline;
+  }
+
+  .cantLibros {
+    margin-left: -71px;
+  }
+
+  .input {
+    width: 62%;
+  }
+
+  .boton2 {
+    margin-left: 5%;
+  }
+
+  label {
+    width: 40%;
+  }
+
+  .formlogin {
+    width: 80%;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .btn1 {
+    margin-left: 1%;
+  }
+
+  .btn1 {
+    margin-left: 25%;
+  }
+
+  .btn2 {
+    margin-left: 10%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 600px) {
   .header1__h1--modificaciones {
     font-size: 80px;
     margin-left: -35px;
@@ -374,24 +541,17 @@ label {
   }
 
   .nav1--propiedades {
-    margin: 0px auto !important;
+    margin: 0px auto;
   }
 
   .section1__h2--modificaciones {
     text-align: center;
   }
 
-  .aside1__h2--modificaciones {
-    text-align: center;
-  }
-
-  iframe {
-    margin-left: 20%;
-  }
-
   .section1--propiedades {
     height: auto;
     padding-bottom: 10%;
+    margin-bottom: -10%;
   }
 
   .section1__h3--modificaciones {
@@ -400,37 +560,53 @@ label {
     margin-left: 9%;
   }
 
+  .section1__ul--modificaciones {
+    margin-left: 10%;
+  }
+
+  iframe {
+    margin-left: 0px;
+    width: 90%;
+  }
+
+  .mover--form {
+    margin-left: 10%;
+  }
+
   .proxi {
     width: 100%;
     height: 100%;
-  }
-
-  form {
-    margin-left: 5%;
   }
 
   .card {
     margin-left: 55px;
   }
 
-  .asideocultar {
-    display: none;
-  }
-
-  .input {
-    width: 75%;
-  }
-
   #formulario {
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 48px;
+  }
+
+  .espaciogifcards {
+    display: block;
+  }
+
+  .cantLibros {
+    margin-left: 0PX;
   }
 
   .boton1 {
-    margin-left: 20%;
+    margin-left: 16%;
+    margin-bottom: -5%;
+  }
+
+  .boton2 {
+    margin-left: 10%;
+    margin-top: 0%;
   }
 
   .formlogin {
-    margin-left: 27%;
+    margin-left: 10%;
   }
 
   .espacionombre,
@@ -445,12 +621,29 @@ label {
     margin-bottom: 10px;
   }
 
-  #mapa {
-    margin-left: -50px;
-  }
-
   .input {
     width: 90%;
+  }
+
+  .form-check-label {
+    width: 50%;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .btn1 {
+    margin-left: 15%;
+  }
+
+  .btn2 {
+    margin-left: 10%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 15%;
   }
 
   .footer1__ul--propiedades {
@@ -477,15 +670,55 @@ label {
     margin-top: 20px;
   }
 
+  .section1__ul--modificaciones {
+    margin-left: 10px;
+  }
+
+  .section1__a--modificaciones {
+    font-size: 30px;
+  }
+
+  iframe {
+    margin-left: 0px;
+    width: 90%;
+  }
+
   #formulario {
     display: block;
+  }
+
+  .mover--form {
+    margin-left: 10%;
+    margin-right: -10%;
+    margin-top: 50px;
+  }
+
+  .boton2 {
+    margin-left: 5%;
   }
 
   .espacionombre,
 .espaciogifcards {
     width: 30%;
     margin-bottom: 5px;
-    display: block ruby;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .formlogin--recuperar {
+    margin-left: 0%;
+  }
+
+  .btn1 {
+    margin-left: 7%;
+  }
+
+  .btn2 {
+    margin-top: 0%;
+  }
+
+  .redesSociales__ul--propiedades {
+    margin-left: 5%;
   }
 
   .modicuadro {
